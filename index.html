@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!-- to toggle between opening chatbot & closing it -->
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>EchoBot</h2>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div class="message msg-bot">
+                <div class="bot-icon">🤖</div>
+                <div class="bot-text">Hi there 👋 <br>How can I help you today?</div>
+            </div>
+
+            <!-- <div class="message msg-user">
+                <div class="user-text">User doubt</div>
+                <div class="user-icon">🙋🏻</div>
+            </div> -->
+        </div>
+        <form action="" class="chat-footer">
+
+            <input type="text" id="userInput" required placeholder="Enter a message..." autofocus autocomplete="off">
+            <button type="submit" id="sendBtn">👉🏻</button>
+        </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
+<!-- echo "# EchoBot" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:akshiita07/EchoBot.git
+git push -u origin main -->
